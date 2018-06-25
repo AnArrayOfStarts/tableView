@@ -1,0 +1,33 @@
+PODS:
+  - MBProgressHUD (0.9.2)
+  - MBProgressHUD+JDragon (0.0.3):
+    - MBProgressHUD (~> 0.9.2)
+  - MJRefresh (3.1.15.3)
+  - NerdyUI (1.2.1):
+    - NerdyUI/Chainable (= 1.2.1)
+    - NerdyUI/Private (= 1.2.1)
+    - NerdyUI/Public (= 1.2.1)
+  - NerdyUI/Chainable (1.2.1):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (1.2.1)
+  - NerdyUI/Public (1.2.1):
+    - NerdyUI/Private
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - MBProgressHUD+JDragon
+  - MJRefresh
+  - NerdyUI
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MBProgressHUD+JDragon: 74b18a89dac13cc921df0e2b0c2945b29b15e7ab
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: be78ed0f6365d8d09151a4320d36361f5bfe16a3
+
+COCOAPODS: 1.4.0

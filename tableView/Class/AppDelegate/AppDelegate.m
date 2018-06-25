@@ -16,8 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 配置
+    [self config];
+    
+    
     return YES;
+}
+
+#pragma mark 自定义行为
+// 配置
+-(void)config{
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];    
+    LXLTabBarViewController *tab = [LXLTabBarViewController new];
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+    
 }
 
 
